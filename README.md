@@ -23,6 +23,10 @@ To run the app, you will need a web browser. Simply open the `index.html` file i
 - The app only supports one to-do list per user.
 - The app does not support multiple users or synchronization between devices.
 
+## Author
+
+**Pious Alpha**
+
 Demo: https://piouscode.github.io/myfirsttodolistwithJavaScript/
 
 ![Screenshot 2022-12-17 at 17 31 05](https://user-images.githubusercontent.com/102190049/208251854-8a881c6f-6327-4b25-829a-4ea8af227152.png)

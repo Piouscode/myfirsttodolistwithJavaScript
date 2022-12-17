@@ -1,3 +1,4 @@
+/* style the universal selector */
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +36,20 @@ button {
 li {
     list-style-type: none;
     margin: 10px 0;
+    display: flex;
+    align-items: center;
 }
+
+/* Style the checkbox */
+li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Style the checked list item */
+li button.remove-button {
+    margin-left: 10px;
+}
+
 
 /* Style the textarea */
 textarea {
@@ -45,3 +59,27 @@ textarea {
     border-radius: 4px;
     resize: none;
 }
+
+/* Style the completed items */
+.completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+/* Style the remove button */
+.remove-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+
+
+/* Coded by Pious Alpha */
